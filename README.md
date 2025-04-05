@@ -3,7 +3,7 @@
 letters ex 'A' as a different data from the lower captal letters ex 'a'.</p>
 <p>We can do the representaion of big captial letters 'A' and lower captial letters 'a' as the same data by doing : <br>
 <pre>
-if(c >= 'A' && c <= 'Z')
+if(c >= 'a' && c <= 'a')
   ascii_letters[c - 32]++;
 </pre>
 
